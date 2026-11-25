@@ -1,6 +1,8 @@
 # 🕵️ who's sus
 
-**who's sus** is a multiplayer social deduction and imposter-guessing game built with **Flutter**. It features Arabic and English localization, categorized word decks paired with custom artwork and JSON animations, and interactive gameplay screens including role reveals, timed discussions, and voting rounds.
+**who's sus** is a multiplayer social deduction and imposter-guessing game built with **Flutter**. It features Arabic and English localization, word decks paired with custom artwork and JSON animations, and interactive gameplay screens including role reveals, timed discussions, and voting rounds.
+
+> **Work in Progress:** The category selection setting is not implemented yet.
 
 ## ✨ Features
 
@@ -8,13 +10,13 @@
 
 * **Complete Game Flow:** Dedicated screens for Game Setup, Player Management, Card Flip/Role Reveal, Timed Discussion, Voting, and How to Play.
 
-* **Categorized Word Decks:** Built-in categories (`game_words.dart`) paired with custom word illustrations (`assets/images/words/`).
+* **Word Decks & Assets:** Built-in word datasets (`game_words.dart`) paired with custom word illustrations (`assets/images/words/`) *(category selection setting is not implemented yet)*.
 
 * **Custom Interactive UI:** Includes a circular countdown timer (`circular_timer.dart`), scratch-to-reveal word cards (`scratch_word_card.dart`), custom game buttons, and JSON animations (`assets/json/`).
 
 ## 📁 Project Structure
 
-```
+```text
 who's-sus/
 ├── assets/
 │   ├── images/          # Game icons, cards, player avatars, and word illustrations
@@ -44,8 +46,8 @@ who's-sus/
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/<USERNAME>/whos-sus.git
-   cd whos-sus
+   git clone https://github.com/Aasa-bit/Who-is-Sus.git
+   cd Who-is-Sus
    ```
 
 2. **Install dependencies:**
@@ -63,5 +65,7 @@ who's-sus/
 ## 📝 Notes for Contributors
 
 * Run `flutter clean` before committing if build artifacts appear, and ensure `.gitignore` excludes `build/`, `.dart_tool/`, and temporary `.log` files.
+
+* **Current Limitation:** The category selection setting has not been implemented yet; rounds currently draw from the available word list.
 
 * To add new words or categories, update `lib/data/game_words.dart` along with their corresponding localized strings in `lib/l10n/` and images in `assets/images/words/`.
