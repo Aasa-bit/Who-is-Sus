@@ -1,0 +1,12 @@
+{
+  "animation_name": "remove_mask",
+  "loop": false,
+  "frame_rate": 12,
+  "total_frames": 4,
+  "frames": [
+    { "frame": 0, "x": 0, "y": 0, "width": 200, "height": 200, "description": "Holding mask covering face" },
+    { "frame": 1, "x": 200, "y": 0, "width": 200, "height": 200, "description": "Lifting mask slightly up" },
+    { "frame": 2, "x": 400, "y": 0, "width": 200, "height": 200, "description": "Face revealed, mask above head" },
+    { "frame": 3, "x": 600, "y": 0, "width": 200, "height": 200, "description": "Final exposed face state" }
+  ]
+}
