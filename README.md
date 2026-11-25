@@ -6,7 +6,7 @@
 
 * **Bilingual Support:** Full localization in English (`app_en.arb`) and Arabic (`app_ar.arb`) with dynamic locale switching.
 
-* **Complete Game Flow:** Dedicated screens for Home, Game Setup, Player Management, Card Flip/Role Reveal, Timed Discussion, Voting, and How to Play.
+* **Complete Game Flow:** Dedicated screens for Game Setup, Player Management, Card Flip/Role Reveal, Timed Discussion, Voting, and How to Play.
 
 * **Categorized Word Decks:** Built-in categories (`game_words.dart`) paired with custom word illustrations (`assets/images/words/`).
 
